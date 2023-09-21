@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistaJugar"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_palabra_adivina"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="PALABRA MAGICA"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/edit_inento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la palabra oculta"
+        android:layout_marginBottom="16dp"
+        android:inputType="text|textCapCharacters"/>
+
+
+    <Button
+        android:id="@+id/boton_verificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERIFICAR"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/text_vidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vidas restantes: "
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/text_puntaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puntaje: "/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ADIVINA LA PALABRA"
+        android:layout_gravity="center"
+        android:textColor="@color/azul"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text|textCapCharacters"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/boton_jugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JUGAR"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/boton_puntaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VER PUNTAJES"
+        />
+
+
+
+</LinearLayout>
